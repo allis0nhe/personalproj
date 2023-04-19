@@ -22,3 +22,26 @@ img {
 	display: inline-block;
 	margin: 20px;
 }
+a {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  transition: font-size 0.2s ease-in-out; 
+  padding-right: 20px;
+}
+.skip a{
+  left: 0;
+  padding: 5px;
+  -webkit-transition: top 0.75s ease-out;
+  transition: top 0.75s ease-out;
+  z-index: 1;
+  font-size: 12px;
+}
+.skip a {
+  position: absolute; 
+  top: -40px;  
+}
+.skip a:focus {
+  position: absolute; 
+  top: 1px; 
+}
