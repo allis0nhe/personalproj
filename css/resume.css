@@ -1,0 +1,29 @@
+main {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+img {
+	max-height: 80vh;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	background: white;
+	margin: 0 100px;
+}
+
+@media screen and (min-width: 1024px) {
+	main {
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-start;
+	}
+	img {
+		max-height: 50vh;
+		margin: 20px;
+	}
+	}
